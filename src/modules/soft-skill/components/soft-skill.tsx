@@ -1,5 +1,5 @@
 import { useIcons } from "@/modules/common/hooks/useIcon";
-import { SoftSkill } from "@/types/soft-skill.interface";
+import type { SoftSkill } from "@/types/soft-skill.interface";
 import React from "react";
 
 interface Props {

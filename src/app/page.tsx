@@ -26,7 +26,7 @@ export default function Home() {
     getResume();
     getActivities();
     getSoftSkills();
-  }, []);
+  }, [getActivities, getResume, getSoftSkills]);
 
   return (
     <Layout>
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
       <section className="mt-8">
-        <h2 className="text-white font-semibold text-2xl">What I'm Doing</h2>
+        <h2 className="text-white font-semibold text-2xl">What Im Doing</h2>
         <div className="grid grid-cols-2 gap-3 mt-5">
           {activities?.length === 0
             ? null

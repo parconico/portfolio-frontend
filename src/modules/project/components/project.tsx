@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
-import { Project } from "@/types/project.interface";
+import type { Project } from "@/types/project.interface";
 import Link from "next/link";
 
 interface Props {

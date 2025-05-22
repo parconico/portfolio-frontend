@@ -12,7 +12,7 @@ export default function Portfolio() {
 
   useEffect(() => {
     getProjects();
-  }, []);
+  }, [getProjects]);
 
   return (
     <Layout>

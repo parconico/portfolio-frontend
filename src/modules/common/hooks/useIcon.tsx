@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import LaptopIcon from "@mui/icons-material/Laptop";
 import CodeIcon from "@mui/icons-material/Code";
 import PersonIcon from "@mui/icons-material/Person";

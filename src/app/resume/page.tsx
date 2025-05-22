@@ -26,7 +26,7 @@ export default function Resume() {
     getExperienceList();
     getLanguges();
     getSkills();
-  }, []);
+  }, [getEducationList, getExperienceList, getLanguges, getSkills]);
 
   return (
     <Layout>
@@ -44,7 +44,7 @@ export default function Resume() {
               <Achievement
                 key={education.id}
                 achievement={education}
-                isLast={education.length - 1 === i}
+                isLast={i === educationList.length - 1}
               />
             ))}
       </section>
@@ -62,7 +62,7 @@ export default function Resume() {
               <Achievement
                 key={xp.id}
                 achievement={xp}
-                isLast={xp.length - 1 === index}
+                isLast={index === experienceList.length - 1}
               />
             ))}
       </section>
