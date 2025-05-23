@@ -17,7 +17,7 @@ export default function Portfolio() {
   return (
     <Layout>
       <ProjectLayout />
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
         {projects.length === 0
           ? null
           : projects.map((project) => (
