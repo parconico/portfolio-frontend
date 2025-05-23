@@ -41,7 +41,7 @@ export default function Home() {
       </section>
       <section className="mt-8">
         <h2 className="text-white font-semibold text-2xl">What Im Doing</h2>
-        <div className="grid grid-cols-2 gap-3 mt-5">
+        <div className="grid grid-cols-2 gap-3 mt-5 max-sm:flex max-sm:flex-col">
           {activities?.length === 0
             ? null
             : activities?.map((activity) => (
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
       <section className="mt-8">
         <h2 className="text-white font-semibold text-2xl">Soft Skills</h2>
-        <div className="grid grid-cols-2 gap-3 mt-10">
+        <div className="grid grid-cols-2 gap-3 mt-10 max-sm:flex max-sm:flex-col">
           {softSkills.length === 0
             ? null
             : softSkills.map((softSkill) => (

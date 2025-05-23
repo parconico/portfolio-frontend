@@ -13,7 +13,7 @@ export default function Aside() {
     getProfile();
   });
   return (
-    <aside className="flex flex-col w-1/4 px-10 py-10 bg-neutral-900 my-14 rounded-2xl border border-neutral-700 justify-between">
+    <aside className="flex flex-col w-full lg:w-1/4 px-8 sm:px-10 py-10 bg-neutral-900 my-6 lg:my-14 rounded-2xl border border-neutral-700 justify-between gap-4">
       <div className="flex flex-col gap-5 items-center">
         <div
           className="bg-gradient-to-br from-neutral-800
@@ -41,7 +41,7 @@ export default function Aside() {
         <Info type="calendar" content={profile?.birthDay || ""} />
         <Info type="location" content={profile?.location || ""} />
       </div>
-      <div className="flex justify-center gap-5">
+      <div className="flex justify-center gap-5 mt-4">
         <GitHubIcon sx={{ color: "white" }} />
         <LinkedInIcon sx={{ color: "white" }} />
         <InstagramIcon sx={{ color: "white" }} />
