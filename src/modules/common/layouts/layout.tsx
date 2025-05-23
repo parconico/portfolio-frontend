@@ -23,7 +23,7 @@ export default function Layout({ children }: Props) {
               {title}
             </h1>
             <nav className="sm:absolute sm:top-0 sm:right-0 sm:px-10 py-4 bg-neutral-800 max-sm:rounded-2xl rounded-bl-2xl rounded-tr-2xl border-b border-l border-neutral-700">
-              <ul className="flex flex-row gap-4 px-2 sm:gap-10">
+              <ul className="flex flex-row gap-3 px-2 sm:gap-10 max-sm:text-[14px]">
                 {routes.map((route) => (
                   <Link
                     key={route.path}
