@@ -19,7 +19,6 @@ export default function Project({ project }: Props) {
           src={project?.image}
           alt="project-image"
           className="object-cover h-48 rounded-xl group-hover:scale-125 duration-300"
-          unoptimized
         />
         <div className="w-full h-full opacity-0 sm:opacity-0 sm:group-hover:opacity-60 bg-neutral-900 absolute top-0 left-0 flex justify-center items-center transition-all">
           <Link
