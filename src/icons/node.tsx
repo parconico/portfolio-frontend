@@ -10,11 +10,11 @@ export default function Node() {
         xmlns="http://www.w3.org/2000/svg"
         fill="#000000"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        {/* <g id="SVGRepo_bgCarrier" stroke-width="0"></g> */}
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></g>
         <g id="SVGRepo_iconCarrier">
           {" "}
@@ -29,9 +29,9 @@ export default function Node() {
               gradientUnits="userSpaceOnUse"
             >
               {" "}
-              <stop offset=".3" stop-color="#3e863d"></stop>{" "}
-              <stop offset=".5" stop-color="#55934f"></stop>{" "}
-              <stop offset=".8" stop-color="#5aad45"></stop>{" "}
+              <stop offset=".3" stopColor="#3e863d"></stop>{" "}
+              <stop offset=".5" stopColor="#55934f"></stop>{" "}
+              <stop offset=".8" stopColor="#5aad45"></stop>{" "}
             </linearGradient>{" "}
             <linearGradient
               id="d"
@@ -42,9 +42,9 @@ export default function Node() {
               gradientUnits="userSpaceOnUse"
             >
               {" "}
-              <stop offset=".57" stop-color="#3e863d"></stop>{" "}
-              <stop offset=".72" stop-color="#619857"></stop>{" "}
-              <stop offset="1" stop-color="#76ac64"></stop>{" "}
+              <stop offset=".57" stopColor="#3e863d"></stop>{" "}
+              <stop offset=".72" stopColor="#619857"></stop>{" "}
+              <stop offset="1" stopColor="#76ac64"></stop>{" "}
             </linearGradient>{" "}
             <linearGradient
               id="f"
@@ -55,11 +55,11 @@ export default function Node() {
               gradientUnits="userSpaceOnUse"
             >
               {" "}
-              <stop offset=".16" stop-color="#6bbf47"></stop>{" "}
-              <stop offset=".38" stop-color="#79b461"></stop>{" "}
-              <stop offset=".47" stop-color="#75ac64"></stop>{" "}
-              <stop offset=".7" stop-color="#659e5a"></stop>{" "}
-              <stop offset=".9" stop-color="#3e863d"></stop>{" "}
+              <stop offset=".16" stopColor="#6bbf47"></stop>{" "}
+              <stop offset=".38" stopColor="#79b461"></stop>{" "}
+              <stop offset=".47" stopColor="#75ac64"></stop>{" "}
+              <stop offset=".7" stopColor="#659e5a"></stop>{" "}
+              <stop offset=".9" stopColor="#3e863d"></stop>{" "}
             </linearGradient>{" "}
             <clipPath id="a">
               {" "}
@@ -75,7 +75,7 @@ export default function Node() {
             </clipPath>{" "}
           </defs>{" "}
           <g
-            clip-path="url(#a)"
+            clipPath="url(#a)"
             transform="translate(-68.564 -79.701) scale(.35278)"
           >
             {" "}
@@ -85,7 +85,7 @@ export default function Node() {
             ></path>{" "}
           </g>{" "}
           <g
-            clip-path="url(#c)"
+            clipPath="url(#c)"
             transform="translate(-68.564 -79.701) scale(.35278)"
           >
             {" "}
@@ -95,7 +95,7 @@ export default function Node() {
             ></path>{" "}
           </g>{" "}
           <g
-            clip-path="url(#e)"
+            clipPath="url(#e)"
             transform="translate(-68.564 -79.701) scale(.35278)"
           >
             {" "}
