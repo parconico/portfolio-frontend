@@ -27,6 +27,7 @@ export default function Layout({ children }: Props) {
                 {routes.map((route) => (
                   <Link
                     key={route.path}
+                    scroll={false}
                     className={`${
                       pathname === route.path
                         ? "text-yellow-200"
