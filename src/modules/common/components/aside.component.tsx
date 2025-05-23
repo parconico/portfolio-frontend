@@ -11,7 +11,7 @@ export default function Aside() {
   const profile = useProfileStore((state) => state.profile);
   useEffect(() => {
     getProfile();
-  });
+  }, [getProfile]);
   return (
     <aside className="flex flex-col w-full lg:w-1/4 px-8 sm:px-10 py-10 bg-neutral-900 my-6 lg:my-14 rounded-2xl border border-neutral-700 justify-between gap-4">
       <div className="flex flex-col gap-5 items-center">
